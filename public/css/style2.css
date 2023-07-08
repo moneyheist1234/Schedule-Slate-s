@@ -1,0 +1,162 @@
+
+  *{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins', sans-serif;
+    box-sizing: border-box;
+
+  }
+
+  .container{
+    width: 100%;
+    min-height: 100vh;
+    /* background: linear-gradient(135deg,#153677,#4e085f); */
+    /* background: linear-gradient(to right, #e74c3c, #f39c12); */
+    background: linear-gradient(135deg, #e91e63, #9c27b0);
+
+
+    padding: 10px;
+  }
+
+  .todo-app{
+    width: 100%;
+    max-width: 540px;
+    background: #fff;
+    margin: 100px auto 20px;
+    padding: 40px 30px 70px;
+    border-radius: 10px;
+  }
+
+  .todo-app h2{
+    color:#002765;
+    display: flex;
+    align-items: center;
+    margin-bottom:20px;
+
+
+  }
+  .todo-app h2 img{
+    width:30px;
+    margin-left: 10px;
+  }
+
+  /* .row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background:#edeef0;
+    border-radius: 30px;
+    padding-left: 20px;
+    margin-bottom: 25px;
+      
+    } */
+
+  
+    input[type="text"],
+    input[type="email"],
+    input[type="password"]{
+      flex:1;
+      border:none;
+      outline: none;
+      background: transparent;
+      /* padding:10px; */
+      font-weight: 14px;
+      width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: flex;
+    border: 1px solid black;
+  
+    border-radius: 30px;
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: space-between;
+    background: whitesmoke;
+
+    
+    }
+
+    input::placeholder{
+      color: #fff;
+    }
+    
+    input:focus{
+      background: white;
+      color:black;
+    }
+
+    input:focus::placeholder{
+      color:black;
+    }
+    
+    button{
+      border:none;
+      outline: none;
+      padding: 16px 50px;
+      background: #ff5945;
+      color: #fff;
+      font-size: 16px;
+      cursor: pointer; 
+      border-radius: 40px;
+      margin-left: 155px;
+      margin-right: 155px;
+    
+
+    }
+    button:hover {
+      background-color: #45a049;
+    
+    }
+    .error-message {
+      color: red;
+      margin-top: 10px;
+      text-align: center;
+    }
+
+    .register{
+      margin-top: 10PX;
+      margin-left: 120px;
+      /* display: block;
+      text-align: center; */
+      /* text-decoration: none; */
+
+    }
+
+    .registerlogin{
+      margin-top: 10PX;
+      margin-left: 100px;
+      
+     
+
+    }
+
+.link:hover{
+  color:black;
+    
+}
+
+.alert-box{
+   position:absolute;
+   top:10%;
+   left:50%;
+   transform: translateX(-50%);
+   min-width: 150px;
+   max-width: 90%;
+   width:auto;
+   padding:10px;
+   text-transform: capitalize;
+   background : white;
+   border-bottom-left-radius: 10px;
+   border-top-right-radius: 10px;
+   color:black;
+   font-family: 'roboto', sans-serif;
+   text-align: center;
+   transition:1s;
+}
+.regi{
+  display: block;
+  text-align: center;
+  content: justify;
+  margin-top: 10px;
+  margin-left: 150px;
+}

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>To Do List</title>
+  <link rel="icon" href="/images/logo.png">
+  
+  <link rel="stylesheet" href="/css/style2.css">
+</head>
+<body>
+
+  <div class="row">
+    <div class="alert-box">
+      <p class="alert">Hello!</p>
+    </div> 
+
+  <div class="container">
+      <div class="todo-app">
+            <h2>To-Do List <img src="/images/logo.png" alt="todolisticon"></h2>
+           
+            <div class="form">
+              <div class="regi">
+              <h2>Register now!</h2>
+              </div>
+
+              <form method="POST" action="/register">
+                <label for="name">Name:</label>
+                <input type="text" name="name" class="name" required>
+                <label for="email">Email:</label>
+                <input type="email" name="email" class="email" required>
+                <br>
+                <label for="password">Password:</label>
+                <input type="password" name="password" class="password" required>
+                <button type="submit">Register</button>
+              </form>
+              
+
+              <!-- <div class="form-group"> -->
+                <!-- <button  type="submit"  onclick="Login()">Register</button> -->
+                <div class="register">
+                <a href="/loginpage" class="link">already have an account?Login</a>
+                </div>
+            </div>
+          </form>
+        </body>
+</html>
